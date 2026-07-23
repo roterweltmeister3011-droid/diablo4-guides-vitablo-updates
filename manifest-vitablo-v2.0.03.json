@@ -1,0 +1,89 @@
+{
+  "schemaVersion": 4,
+  "channel": "vitablo-stable",
+  "appVersion": "2.0.03",
+  "versionCode": 20003,
+  "guideVersion": "2026.07.23-map3",
+  "patchVersion": "3.1.1",
+  "packageName": "com.marc.diablo4guides.vitabloapp001",
+  "releaseDateUtc": "2026-07-23T10:45:00Z",
+  "downloadUrl": "https://github.com/roterweltmeister3011-droid/diablo4-guides-vitablo-updates/releases/latest/download/Diablo_IV_Guides_Vitablo_v2.0.03.apk",
+  "releasePageUrl": "https://github.com/roterweltmeister3011-droid/diablo4-guides-vitablo-updates/releases/latest",
+  "apkFileName": "Diablo_IV_Guides_Vitablo_v2.0.03.apk",
+  "minAndroid": 26,
+  "targetAndroid": 35,
+  "communityScheduleUrl": "https://helltides.com/api/schedule",
+  "notesDe": "Karte auf Hauptstädte, Boss-Unterschlüpfe und Weltboss-Arenen reduziert. 124 andere interaktive Marker sowie deren Filter wurden entfernt; die 24 verbleibenden Punkte verwenden direkte, erneut geprüfte Kartenanker ohne Kollisionsverschiebung.",
+  "notesEn": "Map reduced to capitals, Boss Lairs, and World Boss arenas. The other 124 interactive markers and filters were removed; the remaining 24 points use direct re-audited map anchors without collision shifting.",
+  "contentSources": [
+    {
+      "provider": "Vitablo",
+      "role": "build-and-guide-index",
+      "url": "https://vitablo.de/diablo-4-build/",
+      "snapshotUtc": "2026-07-23T05:00:00Z"
+    },
+    {
+      "provider": "Vitablo",
+      "role": "guide-and-database-index",
+      "url": "https://vitablo.de/diablo-4-guide/",
+      "snapshotUtc": "2026-07-23T05:00:00Z"
+    },
+    {
+      "provider": "Maxroll",
+      "role": "hardcore-survival-guide-source-link",
+      "url": "https://maxroll.gg/d4/resources/hardcore-guide",
+      "snapshotUtc": "2026-07-23T09:30:00Z"
+    },
+    {
+      "provider": "Blizzard",
+      "role": "official-names-regions-and-lair-boss-terminology",
+      "url": "https://news.blizzard.com/en-us/article/24189530/combat-deception-in-season-8-belials-return",
+      "snapshotUtc": "2026-07-23T10:30:00Z"
+    }
+  ],
+  "vitabloCatalog": {
+    "snapshotUtc": "2026-07-23T05:00:00Z",
+    "buildCount": 42,
+    "guideCount": 50,
+    "classes": 8
+  },
+  "integratedGuides": {
+    "hardcoreSurvival": {
+      "provider": "Maxroll",
+      "internalGermanSummary": true,
+      "sectionCount": 10,
+      "checklistItems": 8
+    }
+  },
+  "itemCatalog": {
+    "rareBaseTypeCount": 27,
+    "uniqueCount": 227,
+    "mythicCount": 12,
+    "totalEntries": 266,
+    "alphabetical": true,
+    "dedicatedRareButton": true
+  },
+  "mapCatalog": {
+    "visibleCategories": [
+      "capital",
+      "boss",
+      "worldboss"
+    ],
+    "capitalCount": 7,
+    "bossCount": 10,
+    "worldBossCount": 7,
+    "totalVisibleMarkers": 24,
+    "removedInteractiveMarkers": 124,
+    "collisionOffsets": false,
+    "blizzardLocationAuditRevision": "2026-07-23-blizzard-location-audit-r3",
+    "coordinatePolicyDe": "Offizielle Namen, Regionen und Zugangsorte wurden mit Blizzard-Angaben abgeglichen. Blizzard stellt keinen öffentlichen Punkt-für-Punkt-Koordinatensatz bereit; die Pixelanker wurden direkt auf der eingebetteten Spielkarte kontrolliert."
+  },
+  "patchNotesRevision": "3.1.1-2026-07-14",
+  "seasonNotesRevision": "14-2026-06-30",
+  "seasonNumber": "14",
+  "seasonNameDe": "Saison des erwachten Todes",
+  "seasonNameEn": "Season of Death Awakening",
+  "notesUpdatedUtc": "2026-07-23T10:45:00Z",
+  "apkSizeBytes": 569711,
+  "sha256": "16dfdd4645ae8746ee7126adcd85b7eb2cdc6c29dac4295b3c0a5edfe43e2549"
+}
