@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 4,
+  "channel": "vitablo-clean-stable",
+  "appVersion": "2.0.13",
+  "versionCode": 20013,
+  "guideVersion": "2026.07.23-visible-talent-paragon-v213",
+  "patchVersion": "3.1.1",
+  "packageName": "com.marc.diablo4guides.vitabloapp002",
+  "releaseDateUtc": "2026-07-23T20:30:00Z",
+  "downloadUrl": "https://github.com/roterweltmeister3011-droid/diablo4-guides-vitablo-updates/releases/latest/download/Diablo_IV_Guides_Vitablo_v2.0.13.apk",
+  "releasePageUrl": "https://github.com/roterweltmeister3011-droid/diablo4-guides-vitablo-updates/releases/latest",
+  "apkFileName": "Diablo_IV_Guides_Vitablo_v2.0.13.apk",
+  "minAndroid": 26,
+  "targetAndroid": 29,
+  "communityScheduleUrl": "https://helltides.com/api/schedule",
+  "notesDe": "Alle 42 Builds besitzen direkt umschaltbare, sichtbare Talenttafeln und Paragon-Bretter. Die Build-Navigation ist farblich vereinheitlicht und die ROG Xbox Ally X Ansicht bündig neu aufgebaut.",
+  "notesEn": "All 42 builds now have directly selectable visible talent trees and Paragon boards. Build tabs are visually unified and the ROG Xbox Ally X layout was rebuilt.",
+  "contentSources": [
+    {
+      "provider": "Vitablo",
+      "role": "build-and-guide-index",
+      "url": "https://vitablo.de/diablo-4-build/",
+      "snapshotUtc": "2026-07-23T05:00:00Z"
+    },
+    {
+      "provider": "Vitablo",
+      "role": "guide-and-database-index",
+      "url": "https://vitablo.de/diablo-4-guide/",
+      "snapshotUtc": "2026-07-23T05:00:00Z"
+    },
+    {
+      "provider": "Maxroll",
+      "role": "hardcore-survival-guide-only",
+      "url": "https://maxroll.gg/d4/resources/hardcore-guide",
+      "snapshotUtc": "2026-07-23T05:00:00Z"
+    }
+  ],
+  "vitabloCatalog": {
+    "snapshotUtc": "2026-07-23T05:00:00Z",
+    "buildCount": 42,
+    "guideCount": 50,
+    "classes": 8,
+    "internalVitabloGuideCount": 50,
+    "internalGuideCountIncludingHardcore": 51,
+    "offlineFull": false,
+    "internalStructuredGuides": true,
+    "fullInternalItemDatabase": true,
+    "fullOtherRawDatabases": false,
+    "staleSourceWarnings": [
+      "boss-system",
+      "fortify"
+    ]
+  },
+  "patchNotesRevision": "3.1.1-2026-07-14",
+  "seasonNotesRevision": "14-2026-06-30",
+  "seasonNumber": "14",
+  "seasonNameDe": "Saison des erwachten Todes",
+  "seasonNameEn": "Season of Death Awakening",
+  "notesUpdatedUtc": "2026-07-23T20:30:00Z",
+  "itemCatalog": {
+    "uniqueAndMythicCount": 239,
+    "rareBaseTypeCount": 27,
+    "totalEntries": 266,
+    "alphabetical": true
+  },
+  "mapCatalog": {
+    "visibleCategories": [
+      "capital",
+      "boss",
+      "worldboss"
+    ],
+    "capitalCount": 7,
+    "bossCount": 10,
+    "worldBossCount": 7,
+    "totalVisibleMarkers": 24,
+    "collisionOffsets": false,
+    "blizzardLocationAuditRevision": "2026-07-23-blizzard-location-audit-r3"
+  },
+  "contentAudit": {
+    "wordingAccurate": true,
+    "appReviewDate": "2026-07-23",
+    "staleSourceWarningCount": 2,
+    "externalVitabloLinksInGuideDetails": 0,
+    "externalVitabloLinksInCraftingCompendium": 0,
+    "internalItemAndDropDatabaseEntries": 239,
+    "rareBaseTypes": 27,
+    "internalBuildGuides": 42,
+    "optionalVitabloLinksInBuildDetails": 42,
+    "requiredExternalLinksForBuildGuides": 0
+  },
+  "installationFix": {
+    "zipAligned": true,
+    "alignmentBytes": 4,
+    "resourcesArscStored": true,
+    "resourcesArscAligned": true,
+    "v1JarVerified": true,
+    "v2SignaturePresent": false
+  },
+  "buildGuides": {
+    "internalCompletePracticalGuides": 42,
+    "developmentPlans": 42,
+    "phasesPerBuild": [
+      "Starter",
+      "Midgame",
+      "Endgame"
+    ],
+    "talentTrees": 42,
+    "phaseRotations": 42,
+    "phaseGearPlans": 42,
+    "paragonBoardPlans": 42,
+    "gearRarities": [
+      "Selten",
+      "Legendär",
+      "Einzigartig",
+      "Mythisch"
+    ],
+    "optionalSourceLinks": 42,
+    "requiredExternalLinks": 0,
+    "paragonPlanType": "internal ordered five-board target plans"
+  },
+  "embeddedChecksumNote": "APK-Prüfsumme wird ausschließlich im externen Update-Manifest veröffentlicht.",
+  "installationMode": "update-over-v2.0.10-through-v2.0.12",
+  "signatureSchemes": [
+    "JAR/v1"
+  ],
+  "buildPlanner": {
+    "buildCount": 42,
+    "phasesPerBuild": 3,
+    "visualTalentTrees": true,
+    "visualParagonBoards": true,
+    "fullCardRarityStyling": true,
+    "rogXboxAllyXProfiles": 42,
+    "dedicatedButtons": [
+      "talents",
+      "paragon",
+      "controller"
+    ],
+    "visibleTalentTreeTabs": 42,
+    "visibleParagonBoardTabs": 42,
+    "tabbedBuildViews": [
+      "overview",
+      "skills",
+      "talents",
+      "paragon",
+      "controller",
+      "rotation",
+      "gear"
+    ],
+    "controllerLayoutAligned": true,
+    "paragonBoardSelector": true,
+    "talentTreeSidebar": true
+  },
+  "apkSizeBytes": 830877,
+  "sha256": "2b1f39ea65ce70260299d1420837b7c68984b379e1ae48185e6fc5beb2e81e35",
+  "verification": {
+    "zipIntegrity": true,
+    "jarV1Signature": true,
+    "storedEntriesAligned4Bytes": [
+      "AndroidManifest.xml",
+      "classes.dex",
+      "resources.arsc"
+    ],
+    "runtimeRepresentativeClassesTested": 8,
+    "javascriptRuntimeErrors": 0,
+    "buildCount": 42,
+    "talentNodes": 1386,
+    "paragonBoards": 378,
+    "qualityColoredGearCards": 1134,
+    "dedicatedBuildTabs": [
+      "Talente",
+      "Paragon",
+      "ROG Xbox Ally X"
+    ]
+  }
+}
