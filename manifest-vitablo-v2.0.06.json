@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 4,
+  "channel": "vitablo-stable",
+  "appVersion": "2.0.06",
+  "versionCode": 20006,
+  "guideVersion": "2026.07.23-install-fix-v206",
+  "patchVersion": "3.1.1",
+  "packageName": "com.marc.diablo4guides.vitabloapp001",
+  "releaseDateUtc": "2026-07-23T14:00:00Z",
+  "downloadUrl": "https://github.com/roterweltmeister3011-droid/diablo4-guides-vitablo-updates/releases/latest/download/Diablo_IV_Guides_Vitablo_v2.0.06.apk",
+  "releasePageUrl": "https://github.com/roterweltmeister3011-droid/diablo4-guides-vitablo-updates/releases/latest",
+  "apkFileName": "Diablo_IV_Guides_Vitablo_v2.0.06.apk",
+  "minAndroid": 26,
+  "targetAndroid": 35,
+  "communityScheduleUrl": "https://helltides.com/api/schedule",
+  "notesDe": "Installationskorrektur: resources.arsc, AndroidManifest.xml und classes.dex sind unkomprimiert und auf 4-Byte-Grenzen ausgerichtet. Die APK-v2-Signatur besitzt jetzt die normgerechte äußere Signer-Sequenz. Inhalt und Funktionen entsprechen v2.0.05.",
+  "notesEn": "Installation fix: resources.arsc, AndroidManifest.xml and classes.dex are uncompressed and 4-byte aligned. The APK v2 signature now uses the required outer signer sequence. Content and features match v2.0.05.",
+  "contentSources": [
+    {
+      "provider": "Vitablo",
+      "role": "build-and-guide-index",
+      "url": "https://vitablo.de/diablo-4-build/",
+      "snapshotUtc": "2026-07-23T05:00:00Z"
+    },
+    {
+      "provider": "Vitablo",
+      "role": "guide-and-database-index",
+      "url": "https://vitablo.de/diablo-4-guide/",
+      "snapshotUtc": "2026-07-23T05:00:00Z"
+    },
+    {
+      "provider": "Maxroll",
+      "role": "hardcore-survival-guide-only",
+      "url": "https://maxroll.gg/d4/resources/hardcore-guide",
+      "snapshotUtc": "2026-07-23T05:00:00Z"
+    }
+  ],
+  "vitabloCatalog": {
+    "snapshotUtc": "2026-07-23T05:00:00Z",
+    "buildCount": 42,
+    "guideCount": 50,
+    "classes": 8,
+    "internalVitabloGuideCount": 50,
+    "internalGuideCountIncludingHardcore": 51,
+    "offlineFull": false,
+    "internalStructuredGuides": true,
+    "fullInternalItemDatabase": true,
+    "fullOtherRawDatabases": false,
+    "staleSourceWarnings": [
+      "boss-system",
+      "fortify"
+    ]
+  },
+  "patchNotesRevision": "3.1.1-2026-07-14",
+  "seasonNotesRevision": "14-2026-06-30",
+  "seasonNumber": "14",
+  "seasonNameDe": "Saison des erwachten Todes",
+  "seasonNameEn": "Season of Death Awakening",
+  "notesUpdatedUtc": "2026-07-23T14:00:00Z",
+  "itemCatalog": {
+    "uniqueAndMythicCount": 239,
+    "rareBaseTypeCount": 27,
+    "totalEntries": 266,
+    "alphabetical": true
+  },
+  "mapCatalog": {
+    "visibleCategories": [
+      "capital",
+      "boss",
+      "worldboss"
+    ],
+    "capitalCount": 7,
+    "bossCount": 10,
+    "worldBossCount": 7,
+    "totalVisibleMarkers": 24,
+    "collisionOffsets": false,
+    "blizzardLocationAuditRevision": "2026-07-23-blizzard-location-audit-r3"
+  },
+  "contentAudit": {
+    "wordingAccurate": true,
+    "appReviewDate": "2026-07-23",
+    "staleSourceWarningCount": 2,
+    "externalVitabloLinksInGuideDetails": 0,
+    "externalVitabloLinksInCraftingCompendium": 0,
+    "internalItemAndDropDatabaseEntries": 239,
+    "rareBaseTypes": 27
+  },
+  "installationFix": {
+    "zipAligned": true,
+    "alignmentBytes": 4,
+    "resourcesArscStored": true,
+    "resourcesArscAligned": true,
+    "validV2SignerSequence": true
+  },
+  "apkSizeBytes": 577602,
+  "sha256": "a8ce8691a42decba3efa0fa6924520312b7645005d7959f9be27472f5243243c",
+  "certificateSha256": "1971adfbc5873649ca262a9d6953d59c84e5b4ec13caae3a8ce00685acdb38b5",
+  "signatureSchemes": [
+    "JAR/v1",
+    "APK Signature Scheme v2"
+  ],
+  "verification": {
+    "zipIntegrity": true,
+    "v1Signature": true,
+    "v2Signature": true,
+    "storedEntriesAligned4Bytes": true,
+    "androidManifestAligned": true,
+    "classesDexAligned": true,
+    "resourcesArscAligned": true,
+    "resourcesArscCompressed": false,
+    "buildCount": 42,
+    "guideCount": 50,
+    "internalGuidesIncludingHardcore": 51,
+    "itemCatalogEntries": 266,
+    "contentUnchangedFrom": "2.0.05"
+  }
+}
