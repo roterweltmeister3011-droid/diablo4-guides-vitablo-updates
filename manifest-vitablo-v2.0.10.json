@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 4,
+  "channel": "vitablo-clean-stable",
+  "appVersion": "2.0.10",
+  "versionCode": 20010,
+  "guideVersion": "2026.07.23-build-guides-v210-clean-install",
+  "patchVersion": "3.1.1",
+  "packageName": "com.marc.diablo4guides.vitabloapp002",
+  "releaseDateUtc": "2026-07-23T17:30:00Z",
+  "downloadUrl": "https://github.com/roterweltmeister3011-droid/diablo4-guides-vitablo-updates/releases/latest/download/Diablo_IV_Guides_Vitablo_v2.0.10_Clean_Install.apk",
+  "releasePageUrl": "https://github.com/roterweltmeister3011-droid/diablo4-guides-vitablo-updates/releases/latest",
+  "apkFileName": "Diablo_IV_Guides_Vitablo_v2.0.10_Clean_Install.apk",
+  "minAndroid": 26,
+  "targetAndroid": 29,
+  "communityScheduleUrl": "https://helltides.com/api/schedule",
+  "notesDe": "Saubere Neuinstallation mit neuer Paketkennung. Starter-, Midgame- und Endgame-Pläne, Talentbäume, Rotationen, Ausrüstung und Paragon-Pläne sind intern enthalten. Die APK verwendet eine standardmäßige JAR/v1-Signatur und vermeidet den zuvor selbst erzeugten fehleranfälligen APK-v2-Block.",
+  "notesEn": "Clean-install package with a new package ID and standard JAR/v1 signing.",
+  "contentSources": [
+    {
+      "provider": "Vitablo",
+      "role": "build-and-guide-index",
+      "url": "https://vitablo.de/diablo-4-build/",
+      "snapshotUtc": "2026-07-23T05:00:00Z"
+    },
+    {
+      "provider": "Vitablo",
+      "role": "guide-and-database-index",
+      "url": "https://vitablo.de/diablo-4-guide/",
+      "snapshotUtc": "2026-07-23T05:00:00Z"
+    },
+    {
+      "provider": "Maxroll",
+      "role": "hardcore-survival-guide-only",
+      "url": "https://maxroll.gg/d4/resources/hardcore-guide",
+      "snapshotUtc": "2026-07-23T05:00:00Z"
+    }
+  ],
+  "vitabloCatalog": {
+    "snapshotUtc": "2026-07-23T05:00:00Z",
+    "buildCount": 42,
+    "guideCount": 50,
+    "classes": 8,
+    "internalVitabloGuideCount": 50,
+    "internalGuideCountIncludingHardcore": 51,
+    "offlineFull": false,
+    "internalStructuredGuides": true,
+    "fullInternalItemDatabase": true,
+    "fullOtherRawDatabases": false,
+    "staleSourceWarnings": [
+      "boss-system",
+      "fortify"
+    ]
+  },
+  "patchNotesRevision": "3.1.1-2026-07-14",
+  "seasonNotesRevision": "14-2026-06-30",
+  "seasonNumber": "14",
+  "seasonNameDe": "Saison des erwachten Todes",
+  "seasonNameEn": "Season of Death Awakening",
+  "notesUpdatedUtc": "2026-07-23T17:30:00Z",
+  "itemCatalog": {
+    "uniqueAndMythicCount": 239,
+    "rareBaseTypeCount": 27,
+    "totalEntries": 266,
+    "alphabetical": true
+  },
+  "mapCatalog": {
+    "visibleCategories": [
+      "capital",
+      "boss",
+      "worldboss"
+    ],
+    "capitalCount": 7,
+    "bossCount": 10,
+    "worldBossCount": 7,
+    "totalVisibleMarkers": 24,
+    "collisionOffsets": false,
+    "blizzardLocationAuditRevision": "2026-07-23-blizzard-location-audit-r3"
+  },
+  "contentAudit": {
+    "wordingAccurate": true,
+    "appReviewDate": "2026-07-23",
+    "staleSourceWarningCount": 2,
+    "externalVitabloLinksInGuideDetails": 0,
+    "externalVitabloLinksInCraftingCompendium": 0,
+    "internalItemAndDropDatabaseEntries": 239,
+    "rareBaseTypes": 27,
+    "internalBuildGuides": 42,
+    "optionalVitabloLinksInBuildDetails": 42,
+    "requiredExternalLinksForBuildGuides": 0
+  },
+  "installationFix": {
+    "zipAligned": true,
+    "alignmentBytes": 4,
+    "resourcesArscStored": true,
+    "resourcesArscAligned": true,
+    "v2OuterSignerSequence": true,
+    "v2SignedDataVerified": true,
+    "v2ContentDigestVerified": true,
+    "regressionFixedFrom": "2.0.07"
+  },
+  "buildGuides": {
+    "internalCompletePracticalGuides": 42,
+    "developmentPlans": 42,
+    "phasesPerBuild": [
+      "Starter",
+      "Midgame",
+      "Endgame"
+    ],
+    "talentTrees": 42,
+    "phaseRotations": 42,
+    "phaseGearPlans": 42,
+    "paragonBoardPlans": 42,
+    "gearRarities": [
+      "Selten",
+      "Legendär",
+      "Einzigartig",
+      "Mythisch"
+    ],
+    "optionalSourceLinks": 42,
+    "requiredExternalLinks": 0,
+    "paragonPlanType": "internal ordered five-board target plans"
+  },
+  "embeddedChecksumNote": "APK-Prüfsumme wird ausschließlich im externen Update-Manifest veröffentlicht.",
+  "installationMode": "clean-install-new-package",
+  "replacesFailedPackage": "com.marc.diablo4guides.vitabloapp001",
+  "signatureSchemes": [
+    "JAR/v1"
+  ],
+  "compatibilityReason": "targetSdk 29 permits standards-compliant v1 verification on Android while the custom v2 signer is removed.",
+  "apkSizeBytes": 779936,
+  "sha256": "268b438c8ee477c05db5614080f131f28328c6a594e985a8c77da208879375d5",
+  "verification": {
+    "zipIntegrity": true,
+    "v1JarVerified": true,
+    "noCustomV2Block": true,
+    "criticalAlignment": {
+      "AndroidManifest.xml": 0,
+      "classes.dex": 0,
+      "resources.arsc": 0
+    },
+    "dexHeaderAndChecksums": true,
+    "uniquePackageForCleanInstall": true
+  }
+}
