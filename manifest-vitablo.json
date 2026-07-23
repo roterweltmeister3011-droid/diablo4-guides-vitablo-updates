@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 4,
+  "channel": "vitablo-stable",
+  "appVersion": "2.0.00",
+  "versionCode": 20000,
+  "guideVersion": "2026.07.23",
+  "patchVersion": "3.1.1",
+  "packageName": "com.marc.diablo4guides.vitabloapp001",
+  "releaseDateUtc": "2026-07-23T05:30:00Z",
+  "downloadUrl": "https://github.com/roterweltmeister3011-droid/diablo4-guides-vitablo-updates/releases/latest/download/Diablo_IV_Guides_Vitablo_v2.0.00.apk",
+  "releasePageUrl": "https://github.com/roterweltmeister3011-droid/diablo4-guides-vitablo-updates/releases/latest",
+  "apkFileName": "Diablo_IV_Guides_Vitablo_v2.0.00.apk",
+  "minAndroid": 26,
+  "targetAndroid": 35,
+  "communityScheduleUrl": "https://helltides.com/api/schedule",
+  "notesDe": "Neue eigenständige Vitablo Edition mit 42 aktuellen Builds, Guide-/Datenbankbibliothek, deutscher Oberfläche, Startprüfung für Updates und exakt positionierten Kartenmarkern.",
+  "notesEn": "Vitablo edition.",
+  "contentSources": [
+    {
+      "provider": "Vitablo",
+      "role": "build-and-guide-index",
+      "url": "https://vitablo.de/diablo-4-build/",
+      "snapshotUtc": "2026-07-23T05:00:00Z"
+    },
+    {
+      "provider": "Vitablo",
+      "role": "guide-and-database-index",
+      "url": "https://vitablo.de/diablo-4-guide/",
+      "snapshotUtc": "2026-07-23T05:00:00Z"
+    },
+    {
+      "provider": "Maxroll",
+      "role": "hardcore-survival-guide-only",
+      "url": "https://maxroll.gg/d4/resources/hardcore-guide",
+      "snapshotUtc": "2026-07-23T05:00:00Z"
+    }
+  ],
+  "vitabloCatalog": {
+    "snapshotUtc": "2026-07-23T05:00:00Z",
+    "buildCount": 42,
+    "guideCount": 50,
+    "classes": 8
+  },
+  "patchNotesRevision": "3.1.1-2026-07-14",
+  "seasonNotesRevision": "14-2026-06-30",
+  "seasonNumber": "14",
+  "seasonNameDe": "Saison des erwachten Todes",
+  "seasonNameEn": "Season of Death Awakening",
+  "notesUpdatedUtc": "2026-07-23T05:30:00Z",
+  "apkSizeBytes": 564977,
+  "sha256": "60e2e6a97d725c03af4dea434a2ad3483b9263bc79fe23a021677788c6502a81"
+}
