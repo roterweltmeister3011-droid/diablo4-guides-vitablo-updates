@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 4,
+  "channel": "vitablo-stable",
+  "appVersion": "2.0.07",
+  "versionCode": 20007,
+  "guideVersion": "2026.07.23-build-guides-v207",
+  "patchVersion": "3.1.1",
+  "packageName": "com.marc.diablo4guides.vitabloapp001",
+  "releaseDateUtc": "2026-07-23T14:10:00Z",
+  "downloadUrl": "https://github.com/roterweltmeister3011-droid/diablo4-guides-vitablo-updates/releases/latest/download/Diablo_IV_Guides_Vitablo_v2.0.07.apk",
+  "releasePageUrl": "https://github.com/roterweltmeister3011-droid/diablo4-guides-vitablo-updates/releases/latest",
+  "apkFileName": "Diablo_IV_Guides_Vitablo_v2.0.07.apk",
+  "minAndroid": 26,
+  "targetAndroid": 35,
+  "notesDe": "Alle 42 Buildkarten besitzen nun einen ausführlichen internen Praxisguide. Enthalten sind Konzept, Stärken und Schwächen, Fertigkeitsrollen, Gruppen-, Elite- und Bossrotation, Fortschrittsphasen, Affixprioritäten, Ausrüstung nach Slot, relevante Uniques und Mythics, Klassenmechanik, Talisman, Paragon-Zielplan, Söldner und Checkliste. Der Vitablo-Link bleibt ausschließlich als optionale Quelle am Ende des Guides.",
+  "notesEn": "All 42 build cards now include a detailed internal practical guide. The Vitablo link remains an optional source link only.",
+  "contentSources": [
+    {
+      "provider": "Vitablo",
+      "role": "current-build-index-and-topic-basis",
+      "url": "https://vitablo.de/diablo-4-build/",
+      "snapshotUtc": "2026-07-23T13:00:00Z"
+    },
+    {
+      "provider": "Maxroll",
+      "role": "hardcore-survival-guide-only",
+      "url": "https://maxroll.gg/d4/resources/hardcore-guide",
+      "snapshotUtc": "2026-07-23T13:00:00Z"
+    }
+  ],
+  "vitabloCatalog": {
+    "snapshotUtc": "2026-07-23T13:00:00Z",
+    "buildCount": 42,
+    "classes": 8,
+    "completeInternalPracticalBuildGuides": 42,
+    "optionalSourceLinks": 42,
+    "requiredExternalLinks": 0,
+    "guideAuthorship": "eigenstaendig-formulierte-interne-praxisguides"
+  },
+  "buildGuideSections": [
+    "Überblick und Konzept",
+    "Stärken und Schwächen",
+    "Fertigkeitsrollen",
+    "Gruppen-, Elite-, Boss- und Notfallrotation",
+    "Level- oder Endgame-Fortschritt",
+    "Offensive, Ressourcen- und defensive Affixprioritäten",
+    "Ausrüstung nach Slot",
+    "relevante Uniques und Mythics",
+    "Klassenmechanik",
+    "Talisman",
+    "Paragon-Zielplan",
+    "Söldner",
+    "Praxis-Checkliste"
+  ],
+  "itemCatalog": {
+    "uniqueAndMythicCount": 239,
+    "rareBaseTypeCount": 27,
+    "totalEntries": 266,
+    "alphabetical": true
+  },
+  "mapCatalog": {
+    "visibleCategories": [
+      "capital",
+      "boss",
+      "worldboss"
+    ],
+    "capitalCount": 7,
+    "bossCount": 10,
+    "worldBossCount": 7,
+    "totalVisibleMarkers": 24,
+    "collisionOffsets": false
+  },
+  "apkSizeBytes": 606283,
+  "sha256": "1cb2423c038812e4bbb922517c9ad6d79d55fd8b753bb1b76db5cadaa8fb9688",
+  "signatureSchemes": [
+    "JAR/v1",
+    "APK Signature Scheme v2"
+  ],
+  "verification": {
+    "zipIntegrity": true,
+    "javascriptRuntime": true,
+    "completeInternalBuildGuides": 42,
+    "invalidBuildGuides": 0,
+    "optionalSourceLinks": 42,
+    "v1JarVerified": true,
+    "v2Verified": true,
+    "criticalAlignment": {
+      "AndroidManifest.xml": 0,
+      "classes.dex": 0,
+      "resources.arsc": 0
+    }
+  }
+}
