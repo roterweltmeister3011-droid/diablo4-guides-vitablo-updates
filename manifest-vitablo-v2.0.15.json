@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 4,
+  "channel": "vitablo-clean-stable",
+  "appVersion": "2.0.15",
+  "versionCode": 20015,
+  "guideVersion": "2026.07.24-complete-15-rank-talents-full-paragon-v215",
+  "patchVersion": "3.1.1",
+  "packageName": "com.marc.diablo4guides.vitabloapp003",
+  "releaseDateUtc": "2026-07-24T00:30:00Z",
+  "downloadUrl": "https://github.com/roterweltmeister3011-droid/diablo4-guides-vitablo-updates/releases/latest/download/Diablo_IV_Guides_Vitablo_v2.0.15.apk",
+  "releasePageUrl": "https://github.com/roterweltmeister3011-droid/diablo4-guides-vitablo-updates/releases/latest",
+  "apkFileName": "Diablo_IV_Guides_Vitablo_v2.0.15.apk",
+  "minAndroid": 26,
+  "targetAndroid": 29,
+  "communityScheduleUrl": "https://helltides.com/api/schedule",
+  "notesDe": "Alle 42 Builds enthalten vollständige 83-Punkte-Talentpläne. Aktive Fähigkeiten zeigen bis zu 15 Ränge, beide Modifikatoren und die komplette Vergabereihenfolge. Jede Paragontafel enthält alle 85 Knoten, Rotation, Glyphe, Ein-/Ausgang und eine vollständig nummerierte Punktefolge; Endgame-Pläne umfassen 200 Paragonpunkte.",
+  "notesEn": "All 42 builds include complete 83-point talent plans with a 15-rank skill cap and full modifiers. Every Paragon board includes all 85 nodes and a numbered point sequence; endgame plans contain 200 Paragon points.",
+  "contentSources": [
+    {
+      "provider": "Vitablo",
+      "role": "build-and-guide-index",
+      "url": "https://vitablo.de/diablo-4-build/",
+      "snapshotUtc": "2026-07-23T05:00:00Z"
+    },
+    {
+      "provider": "Vitablo",
+      "role": "guide-and-database-index",
+      "url": "https://vitablo.de/diablo-4-guide/",
+      "snapshotUtc": "2026-07-23T05:00:00Z"
+    },
+    {
+      "provider": "Maxroll",
+      "role": "hardcore-survival-guide-only",
+      "url": "https://maxroll.gg/d4/resources/hardcore-guide",
+      "snapshotUtc": "2026-07-23T05:00:00Z"
+    }
+  ],
+  "vitabloCatalog": {
+    "snapshotUtc": "2026-07-23T05:00:00Z",
+    "buildCount": 42,
+    "guideCount": 50,
+    "classes": 8,
+    "internalVitabloGuideCount": 50,
+    "internalGuideCountIncludingHardcore": 51,
+    "offlineFull": false,
+    "internalStructuredGuides": true,
+    "fullInternalItemDatabase": true,
+    "fullOtherRawDatabases": false,
+    "staleSourceWarnings": [
+      "boss-system",
+      "fortify"
+    ]
+  },
+  "patchNotesRevision": "3.1.1-2026-07-14",
+  "seasonNotesRevision": "14-2026-06-30",
+  "seasonNumber": "14",
+  "seasonNameDe": "Saison des erwachten Todes",
+  "seasonNameEn": "Season of Death Awakening",
+  "notesUpdatedUtc": "2026-07-24T00:30:00Z",
+  "itemCatalog": {
+    "uniqueAndMythicCount": 239,
+    "rareBaseTypeCount": 27,
+    "totalEntries": 266,
+    "alphabetical": true
+  },
+  "mapCatalog": {
+    "visibleCategories": [
+      "capital",
+      "boss",
+      "worldboss"
+    ],
+    "capitalCount": 7,
+    "bossCount": 10,
+    "worldBossCount": 7,
+    "totalVisibleMarkers": 24,
+    "collisionOffsets": false,
+    "blizzardLocationAuditRevision": "2026-07-23-blizzard-location-audit-r3"
+  },
+  "contentAudit": {
+    "wordingAccurate": true,
+    "appReviewDate": "2026-07-24",
+    "staleSourceWarningCount": 2,
+    "externalVitabloLinksInGuideDetails": 0,
+    "externalVitabloLinksInCraftingCompendium": 0,
+    "internalItemAndDropDatabaseEntries": 239,
+    "rareBaseTypes": 27,
+    "internalBuildGuides": 42,
+    "optionalVitabloLinksInBuildDetails": 42,
+    "requiredExternalLinksForBuildGuides": 0,
+    "talentRankCap": 15,
+    "skillPointsPerFinalBuild": 83,
+    "paragonPointsPerFinalBuild": 200,
+    "completeParagonNodeMatrices": 42
+  },
+  "installationFix": {
+    "zipAligned": true,
+    "alignmentBytes": 4,
+    "resourcesArscStored": true,
+    "resourcesArscAligned": true,
+    "v1JarVerified": true,
+    "v2SignaturePresent": false
+  },
+  "buildGuides": {
+    "internalCompletePracticalGuides": 42,
+    "developmentPlans": 42,
+    "phasesPerBuild": [
+      "Starter",
+      "Midgame",
+      "Endgame"
+    ],
+    "talentTrees": 42,
+    "phaseRotations": 42,
+    "phaseGearPlans": 42,
+    "paragonBoardPlans": 42,
+    "gearRarities": [
+      "Selten",
+      "Legendär",
+      "Einzigartig",
+      "Mythisch"
+    ],
+    "optionalSourceLinks": 42,
+    "requiredExternalLinks": 0,
+    "paragonPlanType": "complete stored 85-node matrices with numbered point sequences",
+    "talentPointCap": 83,
+    "activeSkillRankCap": 15,
+    "completeTalentModifiers": 42
+  },
+  "embeddedChecksumNote": "APK-Prüfsumme wird ausschließlich im externen Update-Manifest veröffentlicht.",
+  "installationMode": "side-by-side-clean-install-v215",
+  "signatureSchemes": [
+    "JAR/v1"
+  ],
+  "buildPlanner": {
+    "buildCount": 42,
+    "phasesPerBuild": 3,
+    "visualTalentTrees": true,
+    "visualParagonBoards": true,
+    "fullCardRarityStyling": true,
+    "rogXboxAllyXProfiles": 42,
+    "dedicatedButtons": [
+      "talents",
+      "paragon",
+      "controller"
+    ],
+    "visibleTalentTreeTabs": 42,
+    "visibleParagonBoardTabs": 42,
+    "tabbedBuildViews": [
+      "overview",
+      "skills",
+      "talents",
+      "paragon",
+      "controller",
+      "rotation",
+      "gear"
+    ],
+    "controllerLayoutAligned": true,
+    "paragonBoardSelector": true,
+    "talentTreeSidebar": false,
+    "talentDisplay": "complete-15-rank-tree",
+    "paragonDisplay": "complete-85-node-matrix",
+    "allBoardsVisibleByDefault": true,
+    "talentRankCap": 15,
+    "finalTalentPoints": 83,
+    "finalParagonPoints": 200
+  },
+  "apkSizeBytes": 1296368,
+  "verification": {
+    "zipIntegrity": true,
+    "jarV1Signature": true,
+    "storedEntriesAligned4Bytes": [
+      "AndroidManifest.xml",
+      "classes.dex",
+      "resources.arsc"
+    ],
+    "buildCount": 42,
+    "phasesPerBuild": 3,
+    "talentDisplay": "structured-list",
+    "paragonDisplay": "board-by-board-list",
+    "allParagonBoardsVisibleByDefault": true,
+    "qualityColoredGearCards": 1134,
+    "javascriptSyntax": true,
+    "talentRankCap": 15,
+    "finalTalentPoints": 83,
+    "finalParagonPoints": 200,
+    "completeTalentTrees": 42,
+    "completeParagonMatrices": 42,
+    "paragonNodesPerBoard": 85
+  },
+  "paragonCoordinateBasis": "Interne vollständige 85-Knoten-Matrizen, aus den vorhandenen Tafelplänen deterministisch erzeugt; kein Live-Export des externen Vitablo-Planers.",
+  "sha256": "0f7f9f64e0a4b7f0f872838d6171e6898ba2eefb98626a1c2c41a26789b2177a",
+  "signingCertificateSha256": "79:D2:A8:D5:4D:E4:DF:D0:C3:41:68:FE:BB:36:12:C6:DD:7C:A4:64:3B:64:34:E9:EE:DE:7C:2D:AB:EC:E4:EF"
+}
