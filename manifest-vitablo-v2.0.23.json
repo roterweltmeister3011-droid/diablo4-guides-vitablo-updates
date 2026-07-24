@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 4,
+  "channel": "vitablo-private-original-source",
+  "appVersion": "2.0.23",
+  "versionCode": 20023,
+  "guideVersion": "2026.07.24-rare-resource-farmguide-logo-layer-v223",
+  "patchVersion": "3.1.1",
+  "packageName": "com.marc.diablo4guides.vitabloapp009",
+  "releaseDateUtc": "2026-07-24T15:10:00Z",
+  "downloadUrl": "https://github.com/roterweltmeister3011-droid/diablo4-guides-vitablo-updates/releases/latest/download/Diablo_IV_Guides_Vitablo_v2.0.23.apk",
+  "releasePageUrl": "https://github.com/roterweltmeister3011-droid/diablo4-guides-vitablo-updates/releases/latest",
+  "apkFileName": "Diablo_IV_Guides_Vitablo_v2.0.23.apk",
+  "minAndroid": 26,
+  "targetAndroid": 29,
+  "notesDe": "Das Startseitenskript überschreibt die DIABLO-Wortmarke nicht mehr. Das rote IV liegt nun tatsächlich als Hintergrundebene hinter DIABLO. Neu ist ein vollständig deutscher Farmguide für Obduzit, Vergessene Seelen, Runen, Prismen, Talisman-Materialien, Gold, Uniques und Aspekte mit Fundorten, Effizienzreihenfolge und Praxisrouten.",
+  "notesEn": "The start page script no longer replaces the layered DIABLO wordmark. The red IV now remains behind DIABLO. A German rare-resource farming guide was added.",
+  "contentSources": [
+    {
+      "provider": "Vitablo",
+      "role": "exact-live-paragon-images",
+      "url": "https://vitablo.de/diablo-4-build/",
+      "snapshotUtc": "live-on-open"
+    },
+    {
+      "provider": "Vitablo",
+      "role": "rare-resource-farmguide",
+      "url": "https://vitablo.de/diablo-4-guide/materialien-farmguide/",
+      "snapshotUtc": "2026-07-24T15:00:00Z"
+    },
+    {
+      "provider": "Blizzard",
+      "role": "official-obducite-source-and-patch-verification",
+      "url": "https://news.blizzard.com/de-de/article/24271857/diablo-iv-patchnotes-3-0",
+      "snapshotUtc": "2026-07-24T15:00:00Z"
+    },
+    {
+      "provider": "Vitablo",
+      "role": "build-and-guide-index",
+      "url": "https://vitablo.de/diablo-4-build/",
+      "snapshotUtc": "2026-07-24T14:20:00Z"
+    },
+    {
+      "provider": "Maxroll",
+      "role": "hardcore-survival-guide-only",
+      "url": "https://maxroll.gg/d4/resources/hardcore-guide",
+      "snapshotUtc": "2026-07-23T05:00:00Z"
+    }
+  ],
+  "vitabloCatalog": {
+    "buildCount": 42,
+    "classes": 8,
+    "originalParagonSourcePages": 42,
+    "originalBoardImagesExpectedPerBuild": 10,
+    "offlineFull": false,
+    "networkRequiredForFirstParagonLoad": true,
+    "syntheticParagonFallback": false,
+    "guideCountWithRareResourceGuide": 52
+  },
+  "buildGuides": {
+    "internalCompletePracticalGuides": 42,
+    "developmentPlans": 42,
+    "phasesPerBuild": [
+      "Starter",
+      "Midgame",
+      "Endgame"
+    ],
+    "talentTrees": 42,
+    "activeSkillRankCap": 15,
+    "finalTalentPoints": 83,
+    "paragonPlanType": "original Vitablo essential/final board images",
+    "generatedParagonMatricesEnabled": false
+  },
+  "buildPlanner": {
+    "buildCount": 42,
+    "visualTalentTrees": true,
+    "visualParagonBoards": true,
+    "paragonDisplay": "visible-original-board-image-map",
+    "defaultParagonLayout": "final",
+    "originalEssentialBoardsPerBuild": 5,
+    "originalFinalBoardsPerBuild": 5,
+    "boardMapArrangement": "4 / 3-2 / 5-1",
+    "freeTwoAxisParagonPan": true,
+    "syntheticNodes": false,
+    "sourceReloadButton": true,
+    "networkRequired": true,
+    "boardPixelSize": 600
+  },
+  "sourceImport": {
+    "mode": "runtime-source-import-with-binary-image-fallback",
+    "transportFallbacks": [
+      "direct image",
+      "AllOrigins binary",
+      "CorsProxy binary"
+    ],
+    "htmlSelectorBasis": "original image alt labels matching Tab * Board 1-5 Essenziell/Final",
+    "imageSelection": "real HTTP(S) source; data/blob/placeholder sources rejected",
+    "localMetadataCacheVersion": "v221",
+    "reconstructsNodes": false,
+    "fallbackOnFailure": "per-board visible error notice",
+    "privateUseNotice": true
+  },
+  "installationMode": "update-over-v2.0.22-same-package-and-signing-key",
+  "signatureSchemes": [
+    "JAR/v1"
+  ],
+  "installationFix": {
+    "zipAligned": true,
+    "alignmentBytes": 4,
+    "resourcesArscStored": true,
+    "resourcesArscAligned": true,
+    "v1JarVerified": true,
+    "v2SignaturePresent": false
+  },
+  "verification": {
+    "zipIntegrity": true,
+    "jarV1Signature": true,
+    "storedEntriesAligned4Bytes": [
+      "AndroidManifest.xml",
+      "classes.dex",
+      "resources.arsc"
+    ],
+    "javascriptSyntax": true,
+    "buildCount": 42,
+    "syntheticParagonRendererDisabled": true,
+    "originalSourceImporterPresent": true,
+    "placeholderImageSourcesRejected": true,
+    "binaryImageFallbackPresent": true,
+    "visibleBoardDimensions": true,
+    "centeredDiabloIV": true,
+    "networkImportNotDeviceTested": true,
+    "imageSelectorPlaceholderTest": true,
+    "targetDeviceRuntimeNotTested": true,
+    "diabloIVBackgroundLayer": true,
+    "pageClassTextOverwriteRemoved": true,
+    "germanRareResourceGuidePresent": true
+  },
+  "limitationsDe": "Die Originalbilder sind nicht offline in der APK gespeichert. Beim ersten Öffnen eines Builds ist Internet erforderlich. Der Live-Abruf konnte hier strukturell und syntaktisch, jedoch nicht auf dem Zielgerät ausgeführt werden.",
+  "embeddedChecksumNote": "APK-Größe und SHA-256 werden ausschließlich im externen Update-Manifest veröffentlicht.",
+  "apkSizeBytes": 1335010,
+  "sha256": "d550969d00a08b0121d7fd487a20d46212de45bff09c467f3b14c6940f287ec1",
+  "resourceFarmGuide": {
+    "language": "de",
+    "offline": true,
+    "topics": [
+      "Obduzit",
+      "Vergessene Seelen",
+      "Edelsteine und Prismen",
+      "Runen",
+      "Horadrisches Harz",
+      "Talisman-Siegel und Zauber",
+      "Gold",
+      "Uniques",
+      "Legendäre Aspekte"
+    ],
+    "obduciteMethods": [
+      "Alptraumdungeons",
+      "Höllenhorden-Materialtruhe",
+      "Unterstadt von Kurast mit Tribut der Veredelung",
+      "Truhe der Vollendung im Söldner-Versteck"
+    ],
+    "guaranteedHourlyYieldClaims": false
+  }
+}
