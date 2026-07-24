@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 4,
+  "channel": "vitablo-private-original-source",
+  "appVersion": "2.0.22",
+  "versionCode": 20022,
+  "guideVersion": "2026.07.24-visible-original-paragon-v222",
+  "patchVersion": "3.1.1",
+  "packageName": "com.marc.diablo4guides.vitabloapp009",
+  "releaseDateUtc": "2026-07-24T14:20:00Z",
+  "downloadUrl": "https://github.com/roterweltmeister3011-droid/diablo4-guides-vitablo-updates/releases/latest/download/Diablo_IV_Guides_Vitablo_v2.0.22.apk",
+  "releasePageUrl": "https://github.com/roterweltmeister3011-droid/diablo4-guides-vitablo-updates/releases/latest",
+  "apkFileName": "Diablo_IV_Guides_Vitablo_v2.0.22.apk",
+  "minAndroid": 26,
+  "targetAndroid": 29,
+  "notesDe": "Die Vitablo-Paragontafeln werden nach dem Quellenabruf jetzt sichtbar dargestellt. Platzhalter- und data:-Bildquellen werden verworfen, die echten HTTP(S)-Bilddateien bevorzugt und bei WebView-/Hotlink-Problemen unverändert über einen binären CORS-Transport geladen. Jede Tafel besitzt einen sichtbaren 600×600-Bereich und einen eigenen Lade- oder Fehlerstatus. Das rote IV ist horizontal und vertikal im Wort DIABLO zentriert. Das IV steht nun als rotes Hintergrundsymbol direkt hinter dem Wort Diablo.",
+  "notesEn": "Vitablo Paragon boards are now rendered visibly after source retrieval. Placeholder and data: image sources are rejected, real HTTP(S) image files are preferred, and WebView/hotlink failures fall back to an unmodified binary CORS transport. Every board has a visible 600×600 area with its own loading or error state. The red IV is centered inside the DIABLO wordmark.",
+  "contentSources": [
+    {
+      "provider": "Vitablo",
+      "role": "exact-live-paragon-images",
+      "url": "https://vitablo.de/diablo-4-build/",
+      "snapshotUtc": "live-on-open"
+    },
+    {
+      "provider": "Vitablo",
+      "role": "build-and-guide-index",
+      "url": "https://vitablo.de/diablo-4-build/",
+      "snapshotUtc": "2026-07-24T14:20:00Z"
+    },
+    {
+      "provider": "Maxroll",
+      "role": "hardcore-survival-guide-only",
+      "url": "https://maxroll.gg/d4/resources/hardcore-guide",
+      "snapshotUtc": "2026-07-23T05:00:00Z"
+    }
+  ],
+  "vitabloCatalog": {
+    "buildCount": 42,
+    "classes": 8,
+    "originalParagonSourcePages": 42,
+    "originalBoardImagesExpectedPerBuild": 10,
+    "offlineFull": false,
+    "networkRequiredForFirstParagonLoad": true,
+    "syntheticParagonFallback": false
+  },
+  "buildGuides": {
+    "internalCompletePracticalGuides": 42,
+    "developmentPlans": 42,
+    "phasesPerBuild": [
+      "Starter",
+      "Midgame",
+      "Endgame"
+    ],
+    "talentTrees": 42,
+    "activeSkillRankCap": 15,
+    "finalTalentPoints": 83,
+    "paragonPlanType": "original Vitablo essential/final board images",
+    "generatedParagonMatricesEnabled": false
+  },
+  "buildPlanner": {
+    "buildCount": 42,
+    "visualTalentTrees": true,
+    "visualParagonBoards": true,
+    "paragonDisplay": "visible-original-board-image-map",
+    "defaultParagonLayout": "final",
+    "originalEssentialBoardsPerBuild": 5,
+    "originalFinalBoardsPerBuild": 5,
+    "boardMapArrangement": "4 / 3-2 / 5-1",
+    "freeTwoAxisParagonPan": true,
+    "syntheticNodes": false,
+    "sourceReloadButton": true,
+    "networkRequired": true,
+    "boardPixelSize": 600
+  },
+  "sourceImport": {
+    "mode": "runtime-source-import-with-binary-image-fallback",
+    "transportFallbacks": [
+      "direct image",
+      "AllOrigins binary",
+      "CorsProxy binary"
+    ],
+    "htmlSelectorBasis": "original image alt labels matching Tab * Board 1-5 Essenziell/Final",
+    "imageSelection": "real HTTP(S) source; data/blob/placeholder sources rejected",
+    "localMetadataCacheVersion": "v221",
+    "reconstructsNodes": false,
+    "fallbackOnFailure": "per-board visible error notice",
+    "privateUseNotice": true
+  },
+  "installationMode": "side-by-side-private-original-source-v221",
+  "signatureSchemes": [
+    "JAR/v1"
+  ],
+  "installationFix": {
+    "zipAligned": true,
+    "alignmentBytes": 4,
+    "resourcesArscStored": true,
+    "resourcesArscAligned": true,
+    "v1JarVerified": true,
+    "v2SignaturePresent": false
+  },
+  "verification": {
+    "zipIntegrity": true,
+    "jarV1Signature": true,
+    "storedEntriesAligned4Bytes": [
+      "AndroidManifest.xml",
+      "classes.dex",
+      "resources.arsc"
+    ],
+    "javascriptSyntax": true,
+    "buildCount": 42,
+    "syntheticParagonRendererDisabled": true,
+    "originalSourceImporterPresent": true,
+    "placeholderImageSourcesRejected": true,
+    "binaryImageFallbackPresent": true,
+    "visibleBoardDimensions": true,
+    "centeredDiabloIV": true,
+    "networkImportNotDeviceTested": true,
+    "imageSelectorPlaceholderTest": true,
+    "targetDeviceRuntimeNotTested": true
+  },
+  "limitationsDe": "Die Originalbilder sind nicht offline in der APK gespeichert. Beim ersten Öffnen eines Builds ist Internet erforderlich. Der Live-Abruf konnte hier strukturell und syntaktisch, jedoch nicht auf dem Zielgerät ausgeführt werden.",
+  "embeddedChecksumNote": "APK-Größe und SHA-256 werden ausschließlich im externen Update-Manifest veröffentlicht.",
+  "apkSizeBytes": 1305695,
+  "sha256": "054f48dabebf55003cded7cbd62a99073f7f9ad4a5e8f3d2cc5138160716bec9"
+}
