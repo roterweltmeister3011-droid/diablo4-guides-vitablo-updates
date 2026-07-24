@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 5,
+  "channel": "vitablo-private-exact-snapshot",
+  "appVersion": "2.0.30",
+  "versionCode": 20030,
+  "guideVersion": "2026.07.24-offline-exact-talent-named-paragon-v230",
+  "patchVersion": "3.1.1",
+  "packageName": "com.marc.diablo4guides.vitabloapp009",
+  "releaseDateUtc": "2026-07-24T20:10:10Z",
+  "downloadUrl": "https://github.com/roterweltmeister3011-droid/diablo4-guides-vitablo-updates/releases/latest/download/Diablo_IV_Guides_Vitablo_v2.0.30.apk",
+  "releasePageUrl": "https://github.com/roterweltmeister3011-droid/diablo4-guides-vitablo-updates/releases/latest",
+  "apkFileName": "Diablo_IV_Guides_Vitablo_v2.0.30.apk",
+  "minAndroid": 26,
+  "targetAndroid": 29,
+  "notesDe": "Alle 70 Talentvarianten werden vollständig offline aus den unveränderten Vitablo-Originalcodes aufgebaut. Von Vitablo benannte Fertigkeiten tragen ihren exakten deutschen Namen; nicht ausgeschriebene Passiv- und Modifikator-Knoten zeigen ohne Interpretation ihre wörtliche Original-ID. Alle 380 Paragon-Tafelzuordnungen verwenden 339 lokal eingebettete Originalbilder und tragen den exakten deutschen Tafelnamen sowie die eingesetzte Glyphe. Talent- und Paragonansicht besitzen Schaltflächen-Zoom, Zwei-Finger-Zoom, freies Ziehen sowie horizontales und vertikales Scrollen. Das Logo oben links lautet exakt DiabloIV; IV ist blutig rot.",
+  "notesEn": "All 70 talent variants render fully offline from unchanged Vitablo source codes. Every embedded Paragon board displays its exact board name and glyph. Both views support zoom and free two-axis panning. The top-left wordmark is exactly DiabloIV with a blood-red IV.",
+  "contentSources": [
+    {
+      "provider": "Vitablo",
+      "role": "build-index-and-build-pages",
+      "url": "https://vitablo.de/diablo-4-build/",
+      "snapshotUtc": "2026-07-24T17:30:00Z"
+    },
+    {
+      "provider": "Vitablo",
+      "role": "season-14-tier-list",
+      "url": "https://vitablo.de/diablo-4-guide/tier-list/",
+      "sourceUpdated": "2026-06-28",
+      "snapshotUtc": "2026-07-24T17:35:00Z"
+    },
+    {
+      "provider": "Vitablo",
+      "role": "materials-farm-guide",
+      "url": "https://vitablo.de/diablo-4-guide/materialien-farmguide/",
+      "sourceUpdated": "2026-05-05",
+      "snapshotUtc": "2026-07-24T17:40:00Z"
+    },
+    {
+      "provider": "Vitablo",
+      "role": "masterworking-guide",
+      "url": "https://vitablo.de/diablo-4-guide/vollendung/",
+      "snapshotUtc": "2026-07-24T17:42:00Z"
+    },
+    {
+      "provider": "Blizzard",
+      "role": "official-patch-verification",
+      "url": "https://news.blizzard.com/de-de/article/24271857/diablo-iv-patchnotes-3-0",
+      "snapshotUtc": "2026-07-24T17:45:00Z"
+    },
+    {
+      "provider": "Icy Veins",
+      "role": "season-14-gear-and-lair-boss-cross-check",
+      "url": "https://www.icy-veins.com/d4/guides/gear-systems-and-itemization-overview/",
+      "snapshotUtc": "2026-07-24T17:50:00Z"
+    }
+  ],
+  "vitabloCatalog": {
+    "buildCount": 42,
+    "classes": 8,
+    "talentVariantCount": 70,
+    "talentTokenCount": 1961,
+    "talentSourceDatesPresent": 42,
+    "paragonBoardReferences": 380,
+    "uniqueParagonImages": 339,
+    "embeddedParagonImages": 339,
+    "boardPixelSize": 600,
+    "offlineFull": true,
+    "offlineTalentFull": true,
+    "offlineParagonFull": true,
+    "networkRequiredForPlanner": false,
+    "networkRequiredForTalentOriginal": false,
+    "identicalSourceFallbackAvailable": false,
+    "syntheticTalentFallback": false,
+    "syntheticParagonFallback": false
+  },
+  "buildGuides": {
+    "sourceVerifiedBuildCores": 42,
+    "exactTalentCodeBuilds": 42,
+    "exactTalentVariants": 70,
+    "generatedTalentPlansEnabled": true,
+    "offlineExactTalentPlansEnabled": true,
+    "originalTalentPageViewEnabled": false,
+    "paragonPlanType": "sequential composite of embedded Vitablo board images with exact board and glyph labels",
+    "generatedParagonMatricesEnabled": false,
+    "actionBarsFromVitablo": true,
+    "tierAndActivityFromVitablo": true
+  },
+  "buildPlanner": {
+    "visualTalentTrees": true,
+    "visualParagonBoards": true,
+    "talentRendering": "offline visual tree generated deterministically from unchanged Vitablo talent tokens; no inferred names",
+    "paragonDisplay": "embedded original-board-image map with exact board and glyph labels",
+    "boardMapArrangement": "1 → 2 → 3 → 4 → 5",
+    "talentZoomMin": 0.45,
+    "talentZoomMax": 2.25,
+    "paragonZoomMin": 0.45,
+    "paragonZoomMax": 2.25,
+    "freeTwoAxisTalentPan": true,
+    "freeTwoAxisParagonPan": true,
+    "touchPinchZoom": true,
+    "horizontalScroll": true,
+    "verticalScroll": true,
+    "syntheticNodes": false,
+    "generatedLayoutFromExactTokens": true
+  },
+  "branding": {
+    "topLeftWordmarkText": "DiabloIV",
+    "romanNumeralText": "IV",
+    "bloodyRedRomanNumeral": true
+  },
+  "guideAudit": {
+    "language": "de",
+    "reviewDate": "2026-07-24",
+    "vitabloGuideTopics": 50,
+    "dedicatedFarmGuides": 6,
+    "sourceAuditGuide": 1,
+    "hardcoreSafetyGuide": 1,
+    "totalGermanGuideEntriesIncludingHardcore": 58,
+    "guaranteedHourlyYieldClaims": false,
+    "dynamicDatabaseWarningEnabled": true
+  },
+  "sourceImport": {
+    "mode": "build-time exact snapshot",
+    "talentSelectorBasis": "published pipe-separated Vitablo codes embedded unchanged and retained as a visible audit record",
+    "paragonSelectorBasis": "image alt labels matching Tab * Board 1-5",
+    "imageHandling": "all 339 decoded images embedded and verified at 600 × 600 pixels",
+    "reconstructsMissingData": false,
+    "fallbackOnFailure": "none; embedded offline snapshot is authoritative",
+    "privateUseNotice": true
+  },
+  "installationMode": "direct-update-from-v2.0.28-or-v2.0.29; one-time-uninstall-from-v2.0.27",
+  "signatureSchemes": [
+    "APK Signature Scheme v2",
+    "APK Signature Scheme v3"
+  ],
+  "signingCertificateSha256": "3c87ba16b79cbe4c63520487935d4650e2d940cb0b786d569661cd9295ed951d",
+  "limitationsDe": "Der Build- und Guidebestand ist ein vollständig offline nutzbarer, geprüfter Snapshot vom 24.07.2026. Spätere Hotfixes können Ausrüstung, Drop-Tabellen und Ranglisten verändern. Passiv- oder Modifikatorknoten, für die der lokale Vitablo-Datensatz keinen ausgeschriebenen Namen enthält, bleiben absichtlich als unveränderte Original-ID beschriftet. v2.0.30 kann direkt über v2.0.28 oder v2.0.29 installiert werden. Nur wenn noch v2.0.27 installiert ist, muss diese wegen der damals abweichenden Signatur einmal deinstalliert werden.",
+  "verification": {
+    "zipIntegrity": true,
+    "zipAlignment": true,
+    "javascriptSyntax": true,
+    "generatorScriptsLoadedFromIndex": true,
+    "buildCount": 42,
+    "talentVariantCount": 70,
+    "talentTokenCount": 1961,
+    "renderedTalentNodes": 1961,
+    "onlineTalentFrames": 0,
+    "paragonBoardReferences": 380,
+    "renderedParagonBoards": 380,
+    "namedParagonBoards": 380,
+    "labelledGlyphs": 380,
+    "renderedSequentialBoardLinks": 304,
+    "uniqueEmbeddedParagonImages": 339,
+    "embeddedParagonImagesMissing": 0,
+    "allParagonDimensions600x600": true,
+    "allPlannersRenderedFromFinalApk": true,
+    "freeTwoAxisPanTested": true,
+    "zoomControlsTested": true,
+    "touchPinchZoomTested": true,
+    "offlineTalentVariantSwitchTested": true,
+    "topLeftWordmarkDiabloIVTested": true,
+    "androidManifestVersionName": "2.0.30",
+    "androidManifestVersionCode": 20030,
+    "androidPackageName": "com.marc.diablo4guides.vitabloapp009",
+    "androidDebuggable": false,
+    "apkSignatureVerified": true,
+    "directUpdateCertificateMatchesV2029": true,
+    "targetDeviceRuntimeNotTested": true
+  },
+  "apkSizeBytes": 27638790,
+  "fileSizeBytes": 27638790,
+  "sha256": "69943fa21a1e23eab019ce33861b0fcf41bd55bd56ba9f3c61018a61f5aa51f7"
+}
