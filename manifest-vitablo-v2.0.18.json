@@ -1,0 +1,219 @@
+{
+  "schemaVersion": 4,
+  "channel": "vitablo-clean-stable",
+  "appVersion": "2.0.18",
+  "versionCode": 20018,
+  "guideVersion": "2026.07.24-realistic-sequential-paragon-chain-v218",
+  "patchVersion": "3.1.1",
+  "packageName": "com.marc.diablo4guides.vitabloapp006",
+  "releaseDateUtc": "2026-07-24T10:30:00Z",
+  "downloadUrl": "https://github.com/roterweltmeister3011-droid/diablo4-guides-vitablo-updates/releases/latest/download/Diablo_IV_Guides_Vitablo_v2.0.18.apk",
+  "releasePageUrl": "https://github.com/roterweltmeister3011-droid/diablo4-guides-vitablo-updates/releases/latest",
+  "apkFileName": "Diablo_IV_Guides_Vitablo_v2.0.18.apk",
+  "minAndroid": 26,
+  "targetAndroid": 29,
+  "communityScheduleUrl": "https://helltides.com/api/schedule",
+  "notesDe": "Die Endgame-Paragonkarte wurde als realistischer, spielähnlicher Kettenverbund neu aufgebaut. Die Tafeln sind ausschließlich in der Reihenfolge 1→2→3→4→5 verbunden: Ausgang 1 an Eingang 2, Ausgang 2 an Eingang 3, Ausgang 3 an Eingang 4 und Ausgang 4 an Eingang 5. Namen, Glyphen, Drehungen und nummerierte Punkte bleiben dynamisch je Build sichtbar. Die Karte ist frei in alle Richtungen verschiebbar.",
+  "notesEn": "The endgame Paragon map was rebuilt as a realistic game-like sequential chain. Boards connect only in the order 1→2→3→4→5, with each exit attached to the next entrance. Board names, glyphs, rotations, and numbered points remain dynamic for every build, and the map can be panned freely in all directions.",
+  "contentSources": [
+    {
+      "provider": "Vitablo",
+      "role": "build-and-guide-index",
+      "url": "https://vitablo.de/diablo-4-build/",
+      "snapshotUtc": "2026-07-23T05:00:00Z"
+    },
+    {
+      "provider": "Vitablo",
+      "role": "guide-and-database-index",
+      "url": "https://vitablo.de/diablo-4-guide/",
+      "snapshotUtc": "2026-07-23T05:00:00Z"
+    },
+    {
+      "provider": "Maxroll",
+      "role": "hardcore-survival-guide-only",
+      "url": "https://maxroll.gg/d4/resources/hardcore-guide",
+      "snapshotUtc": "2026-07-23T05:00:00Z"
+    }
+  ],
+  "vitabloCatalog": {
+    "snapshotUtc": "2026-07-23T05:00:00Z",
+    "buildCount": 42,
+    "guideCount": 50,
+    "classes": 8,
+    "internalVitabloGuideCount": 50,
+    "internalGuideCountIncludingHardcore": 51,
+    "offlineFull": false,
+    "internalStructuredGuides": true,
+    "fullInternalItemDatabase": true,
+    "fullOtherRawDatabases": false,
+    "staleSourceWarnings": [
+      "boss-system",
+      "fortify"
+    ]
+  },
+  "patchNotesRevision": "3.1.1-2026-07-14",
+  "seasonNotesRevision": "14-2026-06-30",
+  "seasonNumber": "14",
+  "seasonNameDe": "Saison des erwachten Todes",
+  "seasonNameEn": "Season of Death Awakening",
+  "notesUpdatedUtc": "2026-07-24T10:30:00Z",
+  "itemCatalog": {
+    "uniqueAndMythicCount": 239,
+    "rareBaseTypeCount": 27,
+    "totalEntries": 266,
+    "alphabetical": true
+  },
+  "mapCatalog": {
+    "visibleCategories": [
+      "capital",
+      "boss",
+      "worldboss"
+    ],
+    "capitalCount": 7,
+    "bossCount": 10,
+    "worldBossCount": 7,
+    "totalVisibleMarkers": 24,
+    "collisionOffsets": false,
+    "blizzardLocationAuditRevision": "2026-07-23-blizzard-location-audit-r3"
+  },
+  "contentAudit": {
+    "wordingAccurate": true,
+    "appReviewDate": "2026-07-24",
+    "staleSourceWarningCount": 2,
+    "externalVitabloLinksInGuideDetails": 0,
+    "externalVitabloLinksInCraftingCompendium": 0,
+    "internalItemAndDropDatabaseEntries": 239,
+    "rareBaseTypes": 27,
+    "internalBuildGuides": 42,
+    "optionalVitabloLinksInBuildDetails": 42,
+    "requiredExternalLinksForBuildGuides": 0,
+    "talentRankCap": 15,
+    "skillPointsPerFinalBuild": 83,
+    "paragonPointsPerFinalBuild": 200,
+    "completeParagonNodeMatrices": 42
+  },
+  "installationFix": {
+    "zipAligned": true,
+    "alignmentBytes": 4,
+    "resourcesArscStored": true,
+    "resourcesArscAligned": true,
+    "v1JarVerified": true,
+    "v2SignaturePresent": false
+  },
+  "buildGuides": {
+    "internalCompletePracticalGuides": 42,
+    "developmentPlans": 42,
+    "phasesPerBuild": [
+      "Starter",
+      "Midgame",
+      "Endgame"
+    ],
+    "talentTrees": 42,
+    "phaseRotations": 42,
+    "phaseGearPlans": 42,
+    "paragonBoardPlans": 42,
+    "gearRarities": [
+      "Selten",
+      "Legendär",
+      "Einzigartig",
+      "Mythisch"
+    ],
+    "optionalSourceLinks": 42,
+    "requiredExternalLinks": 0,
+    "paragonPlanType": "complete stored 85-node matrices with numbered point sequences",
+    "talentPointCap": 83,
+    "activeSkillRankCap": 15,
+    "completeTalentModifiers": 42
+  },
+  "embeddedChecksumNote": "APK-Prüfsumme wird ausschließlich im externen Update-Manifest veröffentlicht.",
+  "installationMode": "side-by-side-clean-install-v218",
+  "signatureSchemes": [
+    "JAR/v1"
+  ],
+  "buildPlanner": {
+    "buildCount": 42,
+    "phasesPerBuild": 3,
+    "visualTalentTrees": true,
+    "visualParagonBoards": true,
+    "fullCardRarityStyling": true,
+    "rogXboxAllyXProfiles": 42,
+    "dedicatedButtons": [
+      "talents",
+      "paragon",
+      "controller"
+    ],
+    "visibleTalentTreeTabs": 42,
+    "visibleParagonBoardTabs": 42,
+    "tabbedBuildViews": [
+      "overview",
+      "skills",
+      "talents",
+      "paragon",
+      "controller",
+      "rotation",
+      "gear"
+    ],
+    "controllerLayoutAligned": true,
+    "paragonBoardSelector": true,
+    "talentTreeSidebar": false,
+    "talentDisplay": "complete-15-rank-tree",
+    "paragonDisplay": "realistic-sequential-game-chain-1-2-3-4-5-plus-numbered-85-node-matrices",
+    "allBoardsVisibleByDefault": true,
+    "talentRankCap": 15,
+    "finalTalentPoints": 83,
+    "finalParagonPoints": 200,
+    "paragonNetworkOverview": true,
+    "numberedNodesOnBoard": true,
+    "rotationTurnsVisible": true,
+    "freeTwoAxisParagonPan": true,
+    "boardsTouchAtConnectionGates": true,
+    "sequentialParagonChain": [
+      "1->2",
+      "2->3",
+      "3->4",
+      "4->5"
+    ]
+  },
+  "apkSizeBytes": 1303537,
+  "verification": {
+    "zipIntegrity": true,
+    "jarV1Signature": true,
+    "storedEntriesAligned4Bytes": [
+      "AndroidManifest.xml",
+      "classes.dex",
+      "resources.arsc"
+    ],
+    "buildCount": 42,
+    "phasesPerBuild": 3,
+    "talentDisplay": "structured-list",
+    "paragonDisplay": "realistic-sequential-game-chain-plus-board-details",
+    "allParagonBoardsVisibleByDefault": true,
+    "qualityColoredGearCards": 1134,
+    "javascriptSyntax": true,
+    "talentRankCap": 15,
+    "finalTalentPoints": 83,
+    "finalParagonPoints": 200,
+    "completeTalentTrees": 42,
+    "completeParagonMatrices": 42,
+    "paragonNodesPerBoard": 85,
+    "paragonNetworkOverview": true,
+    "numberedNodesOnBoard": true,
+    "rotationTurnsVisible": true,
+    "freeTwoAxisParagonPan": true,
+    "boardsTouchAtConnectionGates": true,
+    "sequentialParagonChain": [
+      "1->2",
+      "2->3",
+      "3->4",
+      "4->5"
+    ],
+    "endgameBoardsPerBuild": 5,
+    "endgameParagonPointsPerBuild": 200,
+    "interBoardConnectionCount": 4,
+    "browserRenderTest": true,
+    "mobileViewportTest": "412x915",
+    "desktopViewportTest": "1400x1000"
+  },
+  "paragonCoordinateBasis": "Interne vollständige 85-Knoten-Matrizen, aus den vorhandenen Tafelplänen deterministisch erzeugt; kein Live-Export des externen Vitablo-Planers.",
+  "sha256": "422fcdf82613f5973deb4e8ebff36a601e54319a367154bc8cc6a3a9fa6743a6"
+}
