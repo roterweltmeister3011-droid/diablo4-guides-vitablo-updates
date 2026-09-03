@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
   "applicationId": "de.sanctuary.atlas",
-  "versionCode": 8,
-  "versionName": "0.8.0",
+  "versionCode": 10,
+  "versionName": "0.10.0",
   "apk": {
-    "url": "https://github.com/roterweltmeister3011-droid/diablo4-guides-vitablo-updates/releases/download/atlas-v0.8.0/DiabloIVAtlas-0.8.0.apk",
-    "sha256": "037b8d92da71fb8e9c7055407607ba2f8c7d20cc069765901c4d1f98219a0a25",
-    "bytes": 35085009
+    "url": "https://github.com/roterweltmeister3011-droid/diablo4-guides-vitablo-updates/releases/download/atlas-v0.10.0/DiabloIVAtlas-0.10.0.apk",
+    "sha256": "3a163a39e2c6f038fe909f96dce3dafd0b1bd5d9b00f6927e70b9a9c98871af1",
+    "bytes": 86009222
   },
   "season": {
     "number": 14,
@@ -14,5 +14,5 @@
     "patchVersion": "3.1.2",
     "contentDate": "2026-08-22"
   },
-  "notes": "Reparierte und gespeicherte Darstellungsschalter, kompakte mobile Navigation sowie geprüfter APK-Dateiimport. Fachlicher Inhaltsstand unverändert."
+  "notes": "94 eindeutige Vitablo-Builds offline: 45 aktuelle Guides und 49 gekennzeichnete Archivguides. Historische Talent-, Ausrüstungs-, Paragon- und Begleiterdaten nach Quellenverfügbarkeit; Originaladressen verhindern Dopplungen."
 }
