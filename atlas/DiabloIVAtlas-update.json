@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "applicationId": "de.sanctuary.atlas",
+  "versionCode": 8,
+  "versionName": "0.8.0",
+  "apk": {
+    "url": "https://github.com/roterweltmeister3011-droid/diablo4-guides-vitablo-updates/releases/download/atlas-v0.8.0/DiabloIVAtlas-0.8.0.apk",
+    "sha256": "037b8d92da71fb8e9c7055407607ba2f8c7d20cc069765901c4d1f98219a0a25",
+    "bytes": 35085009
+  },
+  "season": {
+    "number": 14,
+    "name": "Übernommener Vitablo-Datenstand",
+    "patchVersion": "3.1.2",
+    "contentDate": "2026-08-22"
+  },
+  "notes": "Reparierte und gespeicherte Darstellungsschalter, kompakte mobile Navigation sowie geprüfter APK-Dateiimport. Fachlicher Inhaltsstand unverändert."
+}
